@@ -13,5 +13,3 @@ for a in range(n,m+1):
         dc+=1
 print(dc)        
             
-            
-        
