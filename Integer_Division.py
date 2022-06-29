@@ -1,3 +1,3 @@
-x=int(input())
-a=x//10
-print("%d"%a)
+n=int(input())
+a=n//10
+print(a)
