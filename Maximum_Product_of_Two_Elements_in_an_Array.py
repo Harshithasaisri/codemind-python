@@ -1,0 +1,5 @@
+l=list(map(int,input().split()))
+m1=max(l)
+l.remove(m1)
+m2=max(l)
+print((m1-1)*(m2-1))
