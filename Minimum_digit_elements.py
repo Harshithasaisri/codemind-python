@@ -1,13 +1,15 @@
-a=int(input())
-s=list(map(int,input().split()))
-g=[]
-c=0
-for i in s:
-    i=list(str(i))
-    #print(i)
-    d=len(i)
-    g.append(d)
-for i in g:
-    if(min(g)==i):
+n=int(input())
+l=list(map(int,input().split()))
+a=[]
+d=0
+for i in range(0,len(l)):
+    c=0
+    while(l[i]!=0):
+        l[i]//=10
         c+=1
-print(c)
+    a.append(c)
+x=min(a)
+for j in range(0,len(a)):
+    if a[j]==x:
+        d+=1
+print(d)        
