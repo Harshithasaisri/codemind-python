@@ -12,4 +12,4 @@ x=min(a)
 for j in range(0,len(a)):
     if a[j]==x:
         d+=1
-print(d)        
+print(d)  
