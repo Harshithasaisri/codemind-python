@@ -1,12 +1,8 @@
 n=int(input())
-s=0
-k=list(map(int,input().split()))
-t=[]
-for i in k:
-    if i not in t:
-        t.append(i)
-dc=0     
-for j in range(len(t)):
-    if t[j]%2!=0:
-       dc+=1
-print(dc)
+l=list(map(int,input().split()))
+s=set(l)
+c=0
+for i in s:
+    if i%2!=0:
+        c+=1
+print(c)        
